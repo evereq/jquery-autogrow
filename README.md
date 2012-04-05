@@ -6,4 +6,4 @@ Changes:
 
 - New event 'autogrow:updated' was added to be able to trigger update of textarea size if content was changed manually from JS code after autogrow plugin was initialized.  
 
-Demo: http://jsfiddle.net/evereq/PgKbp
+Demo: <http://jsfiddle.net/evereq/PgKbp>
