@@ -67,6 +67,9 @@
 			var self = this;			
 			this.textarea.css({overflow: 'hidden', display: 'block'});
 			this.textarea.bind('focus', function() { self.startExpand() } ).bind('blur', function() { self.stopExpand() });
+			this.textarea.bind("autogrow:updated", function () {                
+                self.checkExpand();
+            });
 			this.checkExpand();	
 		},
 						 
